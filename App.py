@@ -12,8 +12,6 @@ print("Alles werkt!")
 
 import streamlit as st
 
-os.chdir("C:/Users/ayaza/OneDrive - Hogeschool Inholland/P12 Informatics/Bestanden- Project")  # Zet de werkmap
-print(os.getcwd())  # Laat zien waar Python zoekt
 
 # ==========================
 # Pagina instellingen
@@ -257,8 +255,6 @@ def DNA_uploaden():
 
     return None
 
-os.chdir("C:/Users/ayaza/OneDrive - Hogeschool Inholland/P12 Informatics/Bestanden- Project")  # Zet de werkmap
-print(os.getcwd())  # Laat zien waar Python zoekt
 
 if option == "DNA → mRNA transcriptie-> Translatie":
 
